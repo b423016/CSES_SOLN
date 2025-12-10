@@ -1,4 +1,4 @@
-//package rangesum;
+package rangesum;
 
 import java.io.IOException;
 import java.io.InputStream;
