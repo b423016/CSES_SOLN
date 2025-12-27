@@ -18,6 +18,7 @@ src/
 ├── graph/          # Graph Algorithms
 ├── math/           # Mathematics
 ├── rangesum/       # Range Queries
+├── somepackage/    # Template solutions
 └── util/           # Utility classes (e.g., FastReader)
 ```
 
@@ -68,8 +69,8 @@ src/
 
 3. **Compile and run** (command line):
    ```bash
-   # Compile a specific solution
-   javac -d out src/intro/weird.java
+   # Compile a specific solution from the project root
+   javac -d out -cp src src/intro/weird.java
    
    # Run the compiled class
    java -cp out intro.weird
@@ -94,12 +95,12 @@ Each Java file contains a solution to a specific CSES problem. To use a solution
 
 **Option 2: Command Line**
 ```bash
-# Navigate to the src directory
-cd src
+# From the project root directory
+# Compile
+javac -d out -cp src src/intro/weird.java
 
-# Compile and run (example with weird.java)
-javac intro/weird.java
-java intro.weird
+# Run
+java -cp out intro.weird
 ```
 
 ### Example Input/Output
@@ -112,8 +113,10 @@ Output: 3 10 5 16 8 4 2 1
 
 ## Utilities
 
-The `util/` package contains helper classes:
-- `FastReader.java`: Fast input reader for competitive programming (optimized for large inputs)
+The repository includes helpful utilities:
+
+- **`util/FastReader.java`**: Fast input reader for competitive programming (optimized for large inputs)
+- **`somepackage/Solution.java`**: Template file demonstrating the usage of FastReader - use this as a starting point for new solutions
 
 ## Contributing
 
