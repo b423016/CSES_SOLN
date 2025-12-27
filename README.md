@@ -18,7 +18,7 @@ src/
 ├── graph/          # Graph Algorithms
 ├── math/           # Mathematics
 ├── rangesum/       # Range Queries
-├── somepackage/    # Template solutions
+├── somepackage/    # Solution template (example file)
 └── util/           # Utility classes (e.g., FastReader)
 ```
 
@@ -48,7 +48,7 @@ src/
 - **Range Queries** (`rangesum/`): Problems involving range-based operations
   - `staticrange.java` - Static Range Sum Queries
   - `rangemin.java` - Static Range Minimum Queries
-  - `rangexor.java` - Range Xor Queries
+  - `rangexor.java` - Range XOR Queries
 
 ## Prerequisites
 
